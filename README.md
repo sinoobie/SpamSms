@@ -8,7 +8,7 @@ $ pkg install php
 
 $ pkg install git
 
-$ git cline http://www.github.com/KANG-NEWBIE/SpamSms
+$ git clone https://github.com/KANG-NEWBIE/SpamSms
 
 $ cd SpamSms
 

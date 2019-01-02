@@ -10,6 +10,10 @@ $ pkg install git
 
 $ git cline http://www.github.com/KANG-NEWBIE/SpamSms
 
+$ cd SpamSms
+
+$ php sms.php
+
 # NOTE
 Sejatinya script ini bukan saya yang buat, script ini kepunyaan mastah mastah indosec saya hanya memodifnya sedikit dan membuatkannya repo. Sebenernya saya ini hanyalah seorang recoder yang selalu ingat kata pepatah saya yang berbunyi "BANGSAD KAO" sekian dan terima gaji
 

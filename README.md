@@ -1,5 +1,5 @@
 # SpamSms
-Spam sms terbaru 2019unlimiteddddd
+Spam sms (UPDATE)
 
 # How To Use
 $ pkg update && pkg upgrade<br>

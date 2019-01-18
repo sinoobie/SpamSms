@@ -11,5 +11,5 @@ $ cd SpamSms<br>
 $ php sms.py
 
 # NOTE
-Sejatinya script ini bukan saya yang buat, script ini kepunyaan mastah mastah indosec saya hanya memodifnya sedikit dan membuatkannya repo. Sebenernya saya ini hanyalah seorang recoder yang selalu ingat kata pepatah saya yang berbunyi "BANGSAD KAO" sekian dan terima gaji
+selalu ingat kata pepatah saya yang berbunyi "BANGSAD KAO" sekian dan terima gaji
 

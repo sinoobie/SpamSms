@@ -8,7 +8,7 @@ $ pkg install git<br>
 $ git clone https://github.com/KANG-NEWBIE/SpamSms<br>
 $ pip install requests<br>
 $ cd SpamSms<br>
-$ php sms.py
+$ python sms.py
 
 # NOTE
 selalu ingat kata pepatah saya yang berbunyi "BANGSAD KAO" sekian dan terima gaji

@@ -8,7 +8,7 @@ class Main:
 	def menu(self):
 		print("""
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-		;     S P A M  E M A I L    ;
+		;       S P A M  S M S      ;
 		;---------------------------;
 		; Author : Kang-newbie      ;
 		; Contact : t.me/kang_nuubi ;

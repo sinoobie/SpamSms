@@ -19,6 +19,7 @@ class Main:
 3. Spam HooqTV
 4. Spam OYOROOMS
 5. Spam TelkomNyet
+6. Spam Sms Gratis
 """)
 		pilih=int(input('/Kang-newbie: '))
 		if pilih == 1:
@@ -44,6 +45,8 @@ class Main:
 			elif pilihlagi == 2:
 				import src.telnyet2
 			else: print("[!] lihat menu dong(o)");self.menu()
+		elif pilih == 6:
+			import src.gratis
 		else: print("[!] lihat menu dong(o)");self.menu()
 
 	def detekos(self):

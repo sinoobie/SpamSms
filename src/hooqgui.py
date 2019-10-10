@@ -47,7 +47,7 @@ def clicked():
 			br.open('https://authenticate.hooq.tv/signupmobile?returnUrl=https://m.hooq.tv%2Fauth%2Fverify%2Fev%2F%257Cdiscover&serialNo=c3125cc0-f09d-4c7f-b7aa-6850fabd3f4e&deviceType=webClient&modelNo=webclient-aurora&deviceName=webclient-aurora/production-4.2.0&deviceSignature=02b480a474b7b2c2524d45047307e013e8b8bc0af115ff5c3294f787824998e7')
 			br.select_form(nr=0)
 			br.form["mobile"] = str(int(no.get()))
-			br.form["password"] = "VersiGUIlebihgudea"
+#			br.form["password"] = "VersiGUIlebihgudea"
 			res=br.submit().read()
 			if 'confirmotp' in str(res):
 				stat=f"[{str(i+1)}] sukses mengirim OTP ke {no.get()}\n"
@@ -55,7 +55,7 @@ def clicked():
 				stat=f"[{str(i+1)}] gagal mengirim OTP ke {no.get()}\n"
 			time.sleep(1)
 			Tex.insert(END, stat)
-	except ValueError:
+	except ValueErrora:
 		messagebox.showerror('Value Error','Input angka!!! -_-')
 	except:
 		messagebox.showerror('Connection Error','Sepertinya ada yang salah. coba:\nPriksa koneksi internet anda atau\nLaporkan ke author')

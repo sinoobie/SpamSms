@@ -34,6 +34,7 @@ def main(arg):
 		if str(idk) in str(r.text):
 			print("\033[1;32m[+] SUKSES")
 		else:
+			print(r.text)
 			print("\033[1;31m[-] GAGAL")
 	except: pass
 

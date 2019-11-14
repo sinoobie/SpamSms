@@ -46,8 +46,6 @@ class Payu:
 			o.append(x.text)
 		capt=int(str(o)[2])+int(str(o)[6])
 		self.br.select_form(nr=0)
-		for f in self.br.forms():
-			print(f)
 		self.br.form['nohp']=no
 		self.br.form['pesan']=msg
 		self.br.form['captcha']=str(capt)

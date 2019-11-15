@@ -15,50 +15,34 @@ class Main:
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 1. Spam TRI
-2. Spam Grab
-3. Spam HooqTV
-4. Spam HooqTv (GUI)
-5. Spam OYOROOMS
-6. Spam TelkomNyet
-7. Spam Sms Gratis
-8. Spam Sms Gratis (GUI)
-9. Sms Gratis PayuTerus
-10. Sms Gratis PayuTerus (GUI)
+2. Spam HooqTV
+3. Spam HooqTv (GUI)
+4. Spam TelkomNyet
+5. Spam Sms Gratis
+6. Spam Sms Gratis (GUI)
+7. Sms Gratis PayuTerus
+8. Sms Gratis PayuTerus (GUI)
+9. ALTBalaji OTP Spammer
 """)
 		pilih=int(input('/Kang-newbie: '))
 		if pilih == 1:
 			import src.sms
 		elif pilih == 2:
-			import src.grab
-		elif pilih == 3:
 			import src.hooq
-		elif pilih == 4:
+		elif pilih == 3:
 			import src.hooqgui
+		elif pilih == 4:
+			import src.telnyet2
 		elif pilih == 5:
-			import src.oyo
-		elif pilih == 6:
-			print("""
-		;;;;;;;;;;;;;;;;;;;
-		; Spam TelkomNyet ;
-		;;;;;;;;;;;;;;;;;;;
-
-1. Spam TelkomNyet-v1
-2. Spam TelkomNyet-v2
-""")
-			pilihlagi=int(input('/Kang-newbie: '))
-			if pilihlagi == 1:
-				import src.telnyet
-			elif pilihlagi == 2:
-				import src.telnyet2
-			else: print("[!] lihat menu dong(o)");self.menu()
-		elif pilih == 7:
 			import src.gratis
-		elif pilih == 8:
+		elif pilih == 6:
 			import src.gratisgui
-		elif pilih == 9:
+		elif pilih == 7:
 			import src.payu
-		elif pilih == 10:
+		elif pilih == 8:
 			import src.payugui
+		elif pilih == 9:
+			import src.balaji
 		else: print("[!] lihat menu dong(o)");self.menu()
 
 	def detekos(self):

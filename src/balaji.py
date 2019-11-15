@@ -40,10 +40,13 @@ try:
 	    ~ By Kang-newbie ~
 	""")
 	Bala()
-	pil=input("\ntry again (y/n)?")
-	if pil.lower == "y":
-		Bala()
-	else:
-		sys.exit("Bye Bye :*")
+
+	while True:
+		pil=input("\ntry again (y/n)?")
+		if pil.lower() == "y":
+			print()
+			Bala()
+		else:
+			sys.exit("Bye Bye :*")
 except Exception as Err:
 	print(f"Err: {Err}")

@@ -10,39 +10,28 @@ class Main:
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 		;       S P A M  S M S      ;
 		;---------------------------;
-		; Author : Kang-newbie      ;
-		; Contact : t.me/kang_nuubi ;
+		;       Author : noobie     ;
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-1. Spam TRI
-2. Spam HooqTV
-3. Spam HooqTv (GUI)
-4. Spam TelkomNyet
-5. Spam Sms Gratis
-6. Spam Sms Gratis (GUI)
-7. Sms Gratis PayuTerus
-8. Sms Gratis PayuTerus (GUI)
-9. ALTBalaji OTP Spammer
+NOTE: This tool's only work for Indonesia number phone.
+
+1. SMS Gratis
+2. OTP Matahari
+3. OTP Hallodok
+4. OTP Olx.co.id
+5. OTP Sociolla.com
 """)
-		pilih=int(input('/Kang-newbie: '))
+		pilih=int(input('noobie/> '))
 		if pilih == 1:
-			import src.sms
-		elif pilih == 2:
-			import src.hooq
-		elif pilih == 3:
-			import src.hooqgui
-		elif pilih == 4:
-			import src.telnyet2
-		elif pilih == 5:
-			import src.gratis
-		elif pilih == 6:
-			import src.gratisgui
-		elif pilih == 7:
 			import src.payu
-		elif pilih == 8:
-			import src.payugui
-		elif pilih == 9:
-			import src.balaji
+		elif pilih == 2:
+			import src.matahari
+		elif pilih == 3:
+			import src.alodok
+		elif pilih == 4:
+			import src.olx
+		elif pilih == 5:
+			import src.socil
 		else: print("[!] lihat menu dong(o)");self.menu()
 
 	def detekos(self):

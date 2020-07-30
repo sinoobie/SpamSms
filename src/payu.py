@@ -28,11 +28,11 @@ class Payu:
 		self.banner()
 
 	def banner(self):
-		os.system('clear')
+#		os.system('clear')
 		print("""
 		;;;;;;;;;;;;;;;;;;;;;;;;
 		; SMS Gratis PayuTerus ;
-		;    By KANG-NEWBIE    ;
+		;      - noobie -      ;
 		;;;;;;;;;;;;;;;;;;;;;;;;
 		""")
 		no=input('[?] Nomor Target: ')
@@ -52,8 +52,8 @@ class Payu:
 		sub=self.br.submit().read()
 		if 'SMS Gratis Telah Dikirim' in str(sub):
 			print('[+] Sukses mengirim sms ke',no)
-		elif 'Mohon Tunggu 8 Menit Lagi' in str(sub):
-			print('[!] Tunggu 8 menit untuk mengirim sms yang sama')
+		elif 'Mohon Tunggu' in str(sub):
+			print('[!] Tunggu beberapa saat untuk mengirim sms yang sama')
 		else:
 			print('[-] Gagal mengirim sms ke',no)
 

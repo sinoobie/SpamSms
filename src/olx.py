@@ -9,9 +9,9 @@ num=input("[In] Number: ")
 jum=int(input("[In] Jumlah: "))
 
 if num[0] == "0":
-	num=num.replace(num[0], '')
+	num=num[1:]
 elif num[0:2] == "62":
-	num=num.replace(num[0:2], '')
+	num=num[2:]
 
 print("\n[RESULT]")
 for x in range(jum):

@@ -34,7 +34,7 @@ data = {'emailAddress': 'noobie@mail.com',
            'gender': 'Male',
            'registrationType': 'N'}
 
-print("\n[RESULT]"))
+print("\n[RESULT]")
 for i in range(jml):
       sec = requests.post('https://thor.matahari.com/MatahariMobileAPI/register', headers=heder, json=data)
       if 'eror' in sec.text:

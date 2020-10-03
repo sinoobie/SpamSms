@@ -10,7 +10,7 @@ class Main:
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 		;       S P A M  S M S      ;
 		;---------------------------;
-		;       Author : noobie     ;
+		;       Author : Fahri_     ;
 		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 NOTE: This tool's only work for Indonesia number phone.

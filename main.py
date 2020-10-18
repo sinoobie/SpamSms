@@ -22,7 +22,7 @@ NOTE: This tool's only work for Indonesia number phone.
 5. OTP Sociolla.com
 """)
 		pilih=int(input('noobie/> '))
-		if pilih == 1:
+		if pilih == 1:richard love astrit
 			import src.payu
 		elif pilih == 2:
 			import src.matahari
